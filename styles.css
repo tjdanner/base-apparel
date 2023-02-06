@@ -107,3 +107,50 @@ button {
     box-shadow: 5px 5px 10px lightgray;
     background: linear-gradient(56deg, rgba(238, 152, 152, 1) 0%, rgba(249, 98, 98, 1) 100%);
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    #portrait {
+        background-image: url('images/hero-mobile.jpg');
+        background-size: cover;
+        height: 33vh;
+        width: 100%;
+        margin: 6rem 0 0;
+    }
+
+    #content-container {
+        width: auto;
+        height: auto;
+        background-image: none;
+    }
+
+    #content {
+        width: 70%;
+        justify-content: left;
+        margin: auto;
+        width: 280px;
+    }
+
+    #content > * {
+        text-align: center;
+    }
+
+    #banner {
+        margin: 3rem 0 0;
+        font-size: 2rem;
+    }
+
+    #message {
+        font-size: .75rem;
+    }
+
+    button {
+        left: 99px;
+        width: 50px;
+    }
+
+}
