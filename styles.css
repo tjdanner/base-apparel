@@ -165,8 +165,10 @@ button {
     }
 
     #logo {
-        top: 1rem;
-        left: 1rem;
+        top: 0;
+        left: 0;
+        position: absolute;
+        margin: 1rem;
     }
 
 }
