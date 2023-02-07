@@ -74,10 +74,9 @@ body {
 
 form {
     width: 50%;
-    /* display: flex; */
     justify-content: space-between;
     width: 100%;
-    /* box-sizing: border-box; */
+    height: 3rem;
 }
 
 input {
@@ -107,6 +106,16 @@ button {
     transition: box-shadow 0.3s;
 }
 
+#error {
+    position: relative;
+    top: -2rem;
+    left: -1rem;
+    color: red;
+    display: none;
+    font-size: .8rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 800px) {
     body {
         flex-direction: column-reverse;
@@ -119,7 +128,7 @@ button {
         background-repeat: no-repeat;
         height: 33vh;
         width: 100%;
-        margin: 6rem 0 0;
+        margin: 4rem 0 0;
         
     }
 
@@ -153,6 +162,11 @@ button {
     button {
         left: 110px;
         width: 50px;
+    }
+
+    #logo {
+        top: 1rem;
+        left: 1rem;
     }
 
 }
