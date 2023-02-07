@@ -25,11 +25,10 @@ body {
 
 #logo {
     width: 150px;
-    margin: auto;
-    position: fixed;
-    top: 2rem;
-    left: 2rem;
-    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2rem;
 }
 
 #content {
@@ -38,7 +37,7 @@ body {
     justify-content: center;
     width: 420px;
     height: 700px;
-    margin: auto;
+    margin: 10rem auto auto;
 }
 
 #content>* {
