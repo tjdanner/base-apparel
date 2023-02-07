@@ -47,11 +47,10 @@ body {
 }
 
 #portrait {
-    background-image: url('images/hero-desktop.jpg');
+    background-image: url('images/model.jpg');
     background-size: cover;
-    width: 33vw;
+    width: 50vw;
     height: 100vh;
-    border: red;
 }
 
 #banner {
@@ -116,11 +115,13 @@ button {
     }
 
     #portrait {
-        background-image: url('images/hero-mobile.jpg');
         background-size: cover;
+        background-position: center -120px;
+        background-repeat: no-repeat;
         height: 33vh;
         width: 100%;
         margin: 6rem 0 0;
+        
     }
 
     #content-container {
@@ -134,6 +135,7 @@ button {
         justify-content: left;
         margin: auto;
         width: 280px;
+        height: auto;
     }
 
     #content > * {
