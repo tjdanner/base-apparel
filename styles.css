@@ -143,6 +143,7 @@ button {
         margin: auto;
         width: 300px;
         height: auto;
+        margin-bottom: 300px;
     }
 
     #content > * {
